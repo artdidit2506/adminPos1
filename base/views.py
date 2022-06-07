@@ -20,6 +20,12 @@ def pagesRegister(request):
 def pagesLogin(request):
     return render(request, 'base/pages-login.html')
 
+def pagesError(request):
+    return render(request, 'base/pages-error-404.html')
+
+def pagesBlank(request):
+    return render(request, 'base/pages-blank.html')
+
 def componentsAlerts(request):
     return render(request, 'base/components/alerts.html')
 
