@@ -8,8 +8,11 @@ def index(request):
 def users(request):
     return render(request, 'base/users-profile.html')
 
-def pages(request):
+def pagesFaq(request):
     return render(request, 'base/pages-faq.html')
+
+def pagesContact(request):
+    return render(request, 'base/pages-contact.html')
 
 def componentsAlerts(request):
     return render(request, 'base/components/alerts.html')
@@ -60,3 +63,6 @@ def formEcharts(request):
 
 def formIconsbootstrap(request):
     return render(request, 'base/icons/icons-bootstrap.html')
+
+def formIconsremix(request):
+    return render(request, 'base/icons/icons-remix.html')

@@ -4,7 +4,8 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('users/', views.users, name='users'),
-    path('pages/', views.pages, name='pages'),
+    path('pages/', views.pagesFaq, name='pages-faq'),
+    path('pages-contact/', views.pagesContact, name='pages-contact'),
     path('alerts/', views.componentsAlerts, name='alerts'),
     path('accordiants/', views.componentsAccordiants, name='accordiants'),
     path('badges/', views.componentsBadges, name='badges'),
@@ -20,4 +21,5 @@ urlpatterns = [
     path('apexcharts/', views.formApexcharts, name='charts-apexcharts'),
     path('charts-echarts/', views.formEcharts, name='charts-echarts'),
     path('icons-bootstrap/', views.formIconsbootstrap, name='icons-bootstrap'),
+    path('icons-remix/', views.formIconsremix, name='icons-remix'),
 ]
