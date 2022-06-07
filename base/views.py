@@ -19,3 +19,6 @@ def componentsAccordiants(request):
 
 def componentsBadges(request):
     return render(request, 'base/badges.html')
+
+def componentsBreadcrumbs(request):
+    return render(request, 'base/breadcrumbs.html')

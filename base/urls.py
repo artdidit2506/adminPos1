@@ -8,4 +8,5 @@ urlpatterns = [
     path('alerts/', views.componentsAlerts, name='alerts'),
     path('accordiants/', views.componentsAccordiants, name='accordiants'),
     path('badges/', views.componentsBadges, name='badges'),
+    path('breadcrumbs/', views.componentsBreadcrumbs, name='breadcrumbs'),
 ]
