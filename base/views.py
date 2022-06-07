@@ -13,3 +13,6 @@ def pages(request):
 
 def componentsAlerts(request):
     return render(request, 'base/alerts.html')
+
+def componentsAccordiants(request):
+    return render(request, 'base/accordiants.html')
