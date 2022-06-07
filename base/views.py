@@ -22,3 +22,6 @@ def componentsBadges(request):
 
 def componentsBreadcrumbs(request):
     return render(request, 'base/breadcrumbs.html')
+
+def componentsButtons(request):
+    return render(request, 'base/buttons.html')
