@@ -16,3 +16,6 @@ def componentsAlerts(request):
 
 def componentsAccordiants(request):
     return render(request, 'base/accordiants.html')
+
+def componentsBadges(request):
+    return render(request, 'base/badges.html')
