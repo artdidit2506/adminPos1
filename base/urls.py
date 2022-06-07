@@ -26,4 +26,5 @@ urlpatterns = [
     path('charts-echarts/', views.formEcharts, name='charts-echarts'),
     path('icons-bootstrap/', views.formIconsbootstrap, name='icons-bootstrap'),
     path('icons-remix/', views.formIconsremix, name='icons-remix'),
+    path('icons-boxicons/', views.formIconsboxicon, name='icons-boxicons'),
 ]

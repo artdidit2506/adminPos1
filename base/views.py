@@ -78,3 +78,6 @@ def formIconsbootstrap(request):
 
 def formIconsremix(request):
     return render(request, 'base/icons/icons-remix.html')
+
+def formIconsboxicon(request):
+    return render(request, 'base/icons/icons-boxicons.html')
