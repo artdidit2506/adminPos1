@@ -14,4 +14,6 @@ urlpatterns = [
     path('layouts/', views.formLayouts, name='layouts'),
     path('editors/', views.formEditors, name='editors'),
     path('validation/', views.formValidation, name='validation'),
+    path('tables-general/', views.formGeneral, name='tables-general'),
+    path('tables-data/', views.formData, name='tables-data'),
 ]

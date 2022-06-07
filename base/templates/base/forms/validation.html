@@ -14,7 +14,7 @@
         <h1>Form Validation</h1>
         <nav>
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
                 <li class="breadcrumb-item">Forms</li>
                 <li class="breadcrumb-item active">Validation</li>
             </ol>
@@ -29,7 +29,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Browser Default</h5>
-                        <p>Browser default validation with using the <code>required</code> keyword. Try submitting the form below. Depending on your browser and OS, you’ll see a slightly different style of feedback.</p>
+                        <p>Browser default validation with using the <code>required</code> keyword. Try submitting the form below. Depending on your browser and OS, you’ll see a slightly different style of feedback.
+                        </p>
 
                         <!-- Browser Default Validation -->
                         <form class="row g-3">
@@ -55,9 +56,9 @@
                             <div class="col-md-3">
                                 <label for="validationDefault04" class="form-label">State</label>
                                 <select class="form-select" id="validationDefault04" required>
-                  <option selected disabled value="">Choose...</option>
-                  <option>...</option>
-                </select>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>...</option>
+                                </select>
                             </div>
                             <div class="col-md-3">
                                 <label for="validationDefault05" class="form-label">Zip</label>
@@ -67,8 +68,8 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
                                     <label class="form-check-label" for="invalidCheck2">
-                    Agree to terms and conditions
-                  </label>
+                                        Agree to terms and conditions
+                                    </label>
                                 </div>
                             </div>
                             <div class="col-12">
@@ -126,9 +127,9 @@
                             <div class="col-md-3">
                                 <label for="validationCustom04" class="form-label">State</label>
                                 <select class="form-select" id="validationCustom04" required>
-                  <option selected disabled value="">Choose...</option>
-                  <option>...</option>
-                </select>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>...</option>
+                                </select>
                                 <div class="invalid-feedback">
                                     Please select a valid state.
                                 </div>
@@ -144,8 +145,8 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                     <label class="form-check-label" for="invalidCheck">
-                    Agree to terms and conditions
-                  </label>
+                                        Agree to terms and conditions
+                                    </label>
                                     <div class="invalid-feedback">
                                         You must agree before submitting.
                                     </div>
@@ -203,9 +204,9 @@
                             <div class="col-md-3 position-relative">
                                 <label for="validationTooltip04" class="form-label">State</label>
                                 <select class="form-select" id="validationTooltip04" required>
-                  <option selected disabled value="">Choose...</option>
-                  <option>...</option>
-                </select>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>...</option>
+                                </select>
                                 <div class="invalid-tooltip">
                                     Please select a valid state.
                                 </div>

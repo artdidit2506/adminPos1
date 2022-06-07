@@ -37,3 +37,10 @@ def formEditors(request):
 
 def formValidation(request):
     return render(request, 'base/forms/validation.html')
+
+# Tables
+def formGeneral(request):
+    return render(request, 'base/tables/tables-general.html')
+
+def formData(request):
+    return render(request, 'base/tables/tables-data.html')
