@@ -14,6 +14,12 @@ def pagesFaq(request):
 def pagesContact(request):
     return render(request, 'base/pages-contact.html')
 
+def pagesRegister(request):
+    return render(request, 'base/pages-register.html')
+
+def pagesLogin(request):
+    return render(request, 'base/pages-login.html')
+
 def componentsAlerts(request):
     return render(request, 'base/components/alerts.html')
 
