@@ -19,4 +19,5 @@ urlpatterns = [
     path('chartjs/', views.formChartjs, name='charts-chartjs'),
     path('apexcharts/', views.formApexcharts, name='charts-apexcharts'),
     path('charts-echarts/', views.formEcharts, name='charts-echarts'),
+    path('icons-bootstrap/', views.formIconsbootstrap, name='icons-bootstrap'),
 ]

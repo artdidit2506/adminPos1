@@ -55,3 +55,8 @@ def formApexcharts(request):
 
 def formEcharts(request):
     return render(request, 'base/charts/charts-echarts.html')
+
+# Icons
+
+def formIconsbootstrap(request):
+    return render(request, 'base/icons/icons-bootstrap.html')
