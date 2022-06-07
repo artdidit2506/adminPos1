@@ -12,16 +12,16 @@ def pages(request):
     return render(request, 'base/pages-faq.html')
 
 def componentsAlerts(request):
-    return render(request, 'base/alerts.html')
+    return render(request, 'base/components/alerts.html')
 
 def componentsAccordiants(request):
-    return render(request, 'base/accordiants.html')
+    return render(request, 'base/components/accordiants.html')
 
 def componentsBadges(request):
-    return render(request, 'base/badges.html')
+    return render(request, 'base/components/badges.html')
 
 def componentsBreadcrumbs(request):
-    return render(request, 'base/breadcrumbs.html')
+    return render(request, 'base/components/breadcrumbs.html')
 
 def componentsButtons(request):
-    return render(request, 'base/buttons.html')
+    return render(request, 'base/components/buttons.html')
