@@ -44,3 +44,8 @@ def formGeneral(request):
 
 def formData(request):
     return render(request, 'base/tables/tables-data.html')
+
+# Charts
+
+def formChartjs(request):
+    return render(request, 'base/charts/charts-chartjs.html')

@@ -16,4 +16,5 @@ urlpatterns = [
     path('validation/', views.formValidation, name='validation'),
     path('tables-general/', views.formGeneral, name='tables-general'),
     path('tables-data/', views.formData, name='tables-data'),
+    path('chartjs/', views.formChartjs, name='charts-chartjs'),
 ]
