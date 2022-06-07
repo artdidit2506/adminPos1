@@ -49,3 +49,9 @@ def formData(request):
 
 def formChartjs(request):
     return render(request, 'base/charts/charts-chartjs.html')
+
+def formApexcharts(request):
+    return render(request, 'base/charts/charts-apexcharts.html')
+
+def formEcharts(request):
+    return render(request, 'base/charts/charts-echarts.html')

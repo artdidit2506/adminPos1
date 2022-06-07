@@ -17,4 +17,6 @@ urlpatterns = [
     path('tables-general/', views.formGeneral, name='tables-general'),
     path('tables-data/', views.formData, name='tables-data'),
     path('chartjs/', views.formChartjs, name='charts-chartjs'),
+    path('apexcharts/', views.formApexcharts, name='charts-apexcharts'),
+    path('charts-echarts/', views.formEcharts, name='charts-echarts'),
 ]
