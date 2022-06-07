@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.apps import apps
 
 # Create your views here.
 def index(request):
@@ -9,3 +10,6 @@ def users(request):
 
 def pages(request):
     return render(request, 'base/pages-faq.html')
+
+def componentsAlerts(request):
+    return render(request, 'base/alerts.html')

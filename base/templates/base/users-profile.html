@@ -1,4 +1,13 @@
-{% load static %}
+{% extends "main.html" %}
+<!-- Content -->
+{% block content %} {% load static %}
+<!-- header -->
+{% include "base/header.html" %}
+<!-- End header -->
+<!-- sidebar -->
+{% include 'base/sidebar.html' %}
+<!-- End sidebar -->
+<!-- Profile -->
 <main id="main" class="main">
 
     <div iv class="pagetitle">
@@ -320,3 +329,4 @@
 
 </main>
 <!-- End main -->
+{% endblock content %}
