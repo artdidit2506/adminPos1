@@ -25,3 +25,8 @@ def componentsBreadcrumbs(request):
 
 def componentsButtons(request):
     return render(request, 'base/components/buttons.html')
+# Form
+def formElements(request):
+    return render(request, 'base/forms/elements.html')
+def formLayouts(request):
+    return render(request, 'base/forms/layouts.html')

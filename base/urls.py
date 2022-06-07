@@ -10,4 +10,6 @@ urlpatterns = [
     path('badges/', views.componentsBadges, name='badges'),
     path('breadcrumbs/', views.componentsBreadcrumbs, name='breadcrumbs'),
     path('buttons/', views.componentsButtons, name='buttons'),
+    path('elements/', views.formElements, name='elements'),
+    path('layouts/', views.formLayouts, name='layouts'),
 ]
