@@ -12,4 +12,6 @@ urlpatterns = [
     path('buttons/', views.componentsButtons, name='buttons'),
     path('elements/', views.formElements, name='elements'),
     path('layouts/', views.formLayouts, name='layouts'),
+    path('editors/', views.formEditors, name='editors'),
+    path('validation/', views.formValidation, name='validation'),
 ]

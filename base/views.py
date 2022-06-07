@@ -28,5 +28,12 @@ def componentsButtons(request):
 # Form
 def formElements(request):
     return render(request, 'base/forms/elements.html')
+
 def formLayouts(request):
     return render(request, 'base/forms/layouts.html')
+
+def formEditors(request):
+    return render(request, 'base/forms/editors.html')
+
+def formValidation(request):
+    return render(request, 'base/forms/validation.html')
