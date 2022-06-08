@@ -40,6 +40,35 @@ def componentsBreadcrumbs(request):
 
 def componentsButtons(request):
     return render(request, 'base/components/buttons.html')
+
+def componentsCards(request):
+    return render(request, 'base/components/cards.html')
+
+def componentsCarousel(request):
+    return render(request, 'base/components/carousel.html')
+
+def componentsList(request):
+    return render(request, 'base/components/list-group.html')
+
+def componentsModal(request):
+    return render(request, 'base/components/modal.html')
+
+def componentsTabs(request):
+    return render(request, 'base/components/tabs.html')
+
+def componentsPagination(request):
+    return render(request, 'base/components/pagination.html')
+
+def componentsProgress(request):
+    return render(request, 'base/components/progress.html')
+
+def componentsSpinners(request):
+    return render(request, 'base/components/spinners.html')
+
+def componentsTooltips(request):
+    return render(request, 'base/components/tooltips.html')
+
+
 # Form
 def formElements(request):
     return render(request, 'base/forms/elements.html')
