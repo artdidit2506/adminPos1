@@ -14,6 +14,7 @@
 
     <div class="search-bar">
         <form class="search-form d-flex align-items-center" method="POST" action="#">
+            {% csrf_token %}
             <input type="text" name="query" placeholder="Search" title="Enter search keyword">
             <button type="submit" title="Search"><i class="bi bi-search"></i></button>
         </form>
@@ -180,14 +181,14 @@
             <li class="nav-item dropdown pe-3">
 
                 <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                    <img src="{% static 'img/profile-img.jpg' %}" alt="Profile" class="rounded-circle">
-                    <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+                    <img src="{% static 'img/L2.jpg' %}" alt="Profile" class="rounded-circle">
+                    <span class="d-none d-md-block dropdown-toggle ps-2">Mr.Bejo</span>
                 </a>
                 <!-- End Profile Iamge Icon -->
 
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                     <li class="dropdown-header">
-                        <h6>Kevin Anderson</h6>
+                        <h6>Mr.Bejo</h6>
                         <span>Web Designer</span>
                     </li>
                     <li>
