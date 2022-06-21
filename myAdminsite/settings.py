@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'myAdminsite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'adminPos1',
+        'USER': 'root',
+        'PASSWORD': '!200909alexaA#',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
